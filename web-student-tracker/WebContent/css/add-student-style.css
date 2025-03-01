@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #f8f9fc;
+	color: #333;
+	margin: 20px;
+}
+
+/* Center Wrapper */
+#wrapper {
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+}
+
+
+/* Header Styling */
+#header {
+	width: 72%;
+	background: linear-gradient(to right, #007bff, #0056b3);
+	padding: 20px;
+	text-align: center;
+	border-radius: 8px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+#header h2 {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+
+
+/* Form Styling */
+form {
+	margin-top: 20px;
+	background: white;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+	width: 50%;
+}
+
+/* Labels */
+label {
+	font-size: 16px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 6px;
+	color: #444;
+}
+
+/* Input Fields */
+input {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 10px;
+	font-size: 16px;
+	margin-bottom: 15px;
+	transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+	border-color: #007bff;
+	outline: none;
+	box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Save Button */
+.save {
+	width: 100%;
+	background: linear-gradient(to right, #28a745, #218838);
+	color: white;
+	text-align: center;
+	border: none;
+	font-weight: bold;
+	padding: 12px;
+	border-radius: 6px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+	transition: all 0.3s ease-in-out;
+}
+
+.save:hover {
+	background: linear-gradient(to right, #218838, #1e7e34);
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+/* Back to List Link */
+a {
+	font-size: 14px;
+	font-weight: bold;
+	color: #6f42c1;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+	color: #4b2fa9;
+	text-decoration: underline;
+}
+
+
